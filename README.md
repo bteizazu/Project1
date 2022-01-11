@@ -76,11 +76,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-**I don't have a screenshot because The Azure subscription ended, and I can't SSH into the Ansible container anymore. Otherwise, I would have done so and run the command 'docker ps' to show that the Elk container is running, and post a screenshot of this .**
-sysadmin@elk:~$ sudo docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                                                                              NAMES
-842caa422ed8        sebp/elk            "/usr/local/bin/star…"   3 hours ago         Up 3 hours          0.0.0.0:5044->5044/tcp, 0.0.0.0:5601->5601/tcp, 0.0.0.0:9200->9200/tcp, 9300/tcp   elk
-sysadmin@elk:~$
+**I don't have a screenshot because The Azure subscription ended, and I can't SSH into the Ansible container anymore. Otherwise, I would have done so and included a screenshot of the terminal after entering the command 'docker ps' to show that the Elk container is running.**
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
