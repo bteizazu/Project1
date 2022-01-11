@@ -97,7 +97,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the _**configuration**_ file to __**the Ansible container**__.
 - Update the __**configuration file**__ file to include the **Elk VM IP address**
-- Run the playbook, using the command **'ansible-playbook [filename for playbook]'** and navigate to _**kibana**_ to check that the installation worked as expected.
+- Run the playbook, using the command **'ansible-playbook filebeat-playbook'** and navigate to _**kibana on the browser (http://elkiphere:5601/app/kibana)**_ to check that the installation worked as expected.
 
 
 
