@@ -8,9 +8,8 @@ The files in this repository were used to configure the network depicted below.
 
 https://drive.google.com/file/d/1M8ChhmFdo2-x-uOv9RsXk-0X1ZM5p54T/view?usp=sharing
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __main.yml___ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __ansible playbooks__ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - **I don't have access to the file anymore because The Azure subscription ended, and I can't SSH into the Ansible container. Otherwise I would have copied the contents of main.yml and pasted them here.**
 
 This document contains the following details:
 - Description of the Topologu
