@@ -12,7 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -24,7 +24,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly **secure**, in addition to restricting **access** to the network.
+Load balancing ensures that the application will be highly **distributed**, in addition to restricting **access** to the network.
 - TODO: What aspect of security do load balancers protect? **They monitor web traffic and ensures servers don't get overwhelmed**
 -  What is the advantage of a jump box? **The jumpbox provides security by serving as a gateway between the internet and other machines not exposed to the internet**
 
@@ -32,7 +32,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 |     Web 2     |            No         |      Jump Box IP: 40.122.232.77                | Web 3| | | |
 
 
-### Elk Configuration
+### ELK Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because
 **manual configuration would involve having to enter commands for each confugration task. Ansible helps with automating this process, making configuration less tedious and more repeatable across servers, by combining multiple tasks into a single script that can be executed with just one command.**
@@ -70,12 +70,12 @@ The playbook implements the following tasks:
 **- Install Docker
 - Install python3-pip and docker module
 - Increase virtual memory
-- Download and launch a docker elk container
+- Download and launch a docker ELK container
 - Enable service docker on boot**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-**I don't have a screenshot because The Azure subscription ended, and I can't SSH into the Ansible container anymore. Otherwise, I would have done so and included a screenshot of the terminal after entering the command 'docker ps' to show that the Elk container is running.**
+**I don't have a screenshot because The Azure subscription ended, and I can't SSH into the Ansible container anymore. Otherwise, I would have done so and included a screenshot of the terminal after entering the command 'docker ps' to show that the ELK container is running.**
 
 
 ### Target Machines & Beats
@@ -95,7 +95,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the _**configuration**_ file to __**the Ansible container**__.
-- Update the __**configuration file**__ file to include the **Elk VM IP address**
+- Update the __**configuration file**__ file to include the **ELK VM IP address**
 - Run the playbook, using the command **'ansible-playbook filebeat-playbook'** and navigate to _**kibana on the browser (http://elkiphere:5601/app/kibana)**_ to check that the installation worked as expected.
 
 
