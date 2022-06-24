@@ -4,7 +4,7 @@ Project 1 submission for UMN Cybersecurity Bootcamp
 
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure theto network depicted below.
 
 https://drive.google.com/file/d/1M8ChhmFdo2-x-uOv9RsXk-0X1ZM5p54T/view?usp=sharing
 
@@ -25,8 +25,8 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly **distributed**, in addition to restricting **access** to the network.
-- TODO: What aspect of security do load balancers protect? **They monitor web traffic and ensures servers don't get overwhelmed**
--  What is the advantage of a jump box? **The jumpbox provides security by serving as a gateway between the internet and other machines not exposed to the internet**
+-  **The load balancers monitor web traffic and ensure servers don't get overwhelmed**
+-  **The jumpbox provides security by serving as a gateway between the internet and other machines not exposed to the internet**
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **web activity** and **system logs**.
 
